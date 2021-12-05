@@ -1,0 +1,35 @@
+import Layout from 'src/components/Layout';
+import HeadSEO from 'src/components/HeadSEO';
+import {
+  Box,
+  Heading,
+  Container,
+  Text,
+  VStack,
+  UnorderedList,
+  ListItem
+} from '@chakra-ui/react';
+import { BiRun } from 'react-icons/bi';
+
+<HeadSEO
+  title="Hit the ground running | gatsby-chakraui-seo-mdx"
+  description="Hit the ground running with this project featuring Chakra UI for styling & full Mdx support with automatic image optimisation."
+  slug="/"
+/>
+<Box bg="gray.50" py="8rem">
+  <Container maxW="container.md">
+    <VStack spacing="2rem">
+      <BiRun size={64} />
+      <Heading p="2rem" color="white" bg="yellow.500">
+        This is an MDX page
+      </Heading>
+      <Text>
+        The Vice President of the United States, and of the Person attainted.
+        The Ratification of the Legislature, which shall then be counted. Each
+        State shall appoint, in such inferior Courts as the Legislature thereof
+        may direct, a Number of Electors, equal to the whole Number of free
+        Persons.
+      </Text>
+    </VStack>
+  </Container>
+</Box>
